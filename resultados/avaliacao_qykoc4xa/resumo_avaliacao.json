@@ -1,0 +1,176 @@
+{
+  "episodios_por_estrategia": 100,
+  "passos_por_episodio": 200,
+  "seed_iniciais": 2026,
+  "seed_aleatorio": 2027,
+  "seed_desempates": 2028,
+  "python": "3.14.7",
+  "q_table_preservada": true,
+  "exploracao_treinado": false,
+  "estrategias": {
+    "aleatorio": {
+      "recompensa_total": 27.337005129511248,
+      "todas_ideais_pct": 2.905,
+      "temperatura_media": 23.106857398044387,
+      "temperatura_ideal_pct": 98.075,
+      "temperatura_desvio_medio": 0.024370352631288682,
+      "umidade_media": 91.82540556107853,
+      "umidade_ideal_pct": 6.265,
+      "umidade_desvio_medio": 23.206932012962014,
+      "luminosidade_media": 600.1873676322382,
+      "luminosidade_ideal_pct": 50.04,
+      "luminosidade_desvio_medio": 50.09229095342559,
+      "irrigacao_ligada_pct": 49.725,
+      "ventilacao_ligada_pct": 50.135,
+      "iluminacao_ligada_pct": 49.98,
+      "acao_0": 24.66,
+      "acao_1": 25.09,
+      "acao_2": 24.99,
+      "acao_3": 25.3,
+      "acao_4": 25.35,
+      "acao_5": 24.63,
+      "acao_6": 25.55,
+      "acao_7": 24.43,
+      "recompensa_desvio_padrao_episodios": 36.71105040509937
+    },
+    "treinado": {
+      "recompensa_total": 509.11553035160483,
+      "todas_ideais_pct": 65.945,
+      "temperatura_media": 24.675509449036937,
+      "temperatura_ideal_pct": 98.755,
+      "temperatura_desvio_medio": 0.011818198615186027,
+      "umidade_media": 51.307386975918845,
+      "umidade_ideal_pct": 66.68,
+      "umidade_desvio_medio": 0.4109290484279997,
+      "luminosidade_media": 798.3677333315005,
+      "luminosidade_ideal_pct": 99.78,
+      "luminosidade_desvio_medio": 0.16942682926170208,
+      "irrigacao_ligada_pct": 32.745,
+      "ventilacao_ligada_pct": 33.67,
+      "iluminacao_ligada_pct": 99.78,
+      "acao_0": 0.14,
+      "acao_1": 0.13,
+      "acao_2": 0.07,
+      "acao_3": 0.1,
+      "acao_4": 132.34,
+      "acao_5": 0.05,
+      "acao_6": 1.96,
+      "acao_7": 65.21,
+      "recompensa_desvio_padrao_episodios": 4.743736480897584
+    }
+  },
+  "diferenca_media_recompensa_pareada": 481.7785252220936,
+  "episodios_treinado_com_maior_recompensa": 100,
+  "nota": "Uma política treinada, um conjunto de condições iniciais e uma realização aleatória por condição. Não comprova convergência, robustez a outros treinamentos nem desempenho em estufas reais. Percentuais incluem recuperação inicial e são calculados após cada ação.",
+  "pasta_treino": "C:\\Users\\Teresa\\Downloads\\projeto_estufa\\resultados\\treino_ncns8x9r",
+  "sha256_q_table": "730e9ad4f2710937cc8658e64180ef2818c07cd98934ec9ac3b4ce3c42109b5c",
+  "parametros": {
+    "ACOES": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "ALPHA": 0.1,
+    "CUSTO_EQUIPAMENTO": 0.05,
+    "DECAIMENTO_EPSILON": 0.995,
+    "EFEITO_ILUMINACAO": 400.0,
+    "EFEITO_IRRIGACAO": 6.0,
+    "EFEITO_VENTILACAO": 1.0,
+    "EPSILON_INICIAL": 1.0,
+    "EPSILON_MINIMO": 0.05,
+    "ESCALAS_PENALIDADE": [
+      5.0,
+      20.0,
+      300.0
+    ],
+    "FAIXAS_IDEAIS": [
+      [
+        20.0,
+        26.0
+      ],
+      [
+        50.0,
+        70.0
+      ],
+      [
+        600.0,
+        900.0
+      ]
+    ],
+    "FAIXAS_INICIAIS": [
+      [
+        18.0,
+        32.0
+      ],
+      [
+        30.0,
+        85.0
+      ],
+      [
+        200.0,
+        1100.0
+      ]
+    ],
+    "GAMMA": 0.95,
+    "LIMITES": [
+      [
+        10.0,
+        40.0
+      ],
+      [
+        0.0,
+        100.0
+      ],
+      [
+        0.0,
+        1200.0
+      ]
+    ],
+    "LUZ_AMBIENTE": 400.0,
+    "MAX_PASSOS": 200,
+    "NUM_ACOES": 8,
+    "NUM_ESTADOS": 27,
+    "PENALIDADE_MAXIMA": 3.0,
+    "PERDA_UMIDADE": 2.0,
+    "TAXA_LUZ": 0.5,
+    "TAXA_TEMPERATURA": 0.1,
+    "TEMPERATURA_REFERENCIA": 28.0
+  }
+}

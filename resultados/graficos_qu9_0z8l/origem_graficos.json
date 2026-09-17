@@ -1,0 +1,13 @@
+{
+  "treino": "C:\\Users\\Teresa\\Downloads\\projeto_estufa\\resultados\\treino_ncns8x9r",
+  "avaliacao": "C:\\Users\\Teresa\\Downloads\\projeto_estufa\\resultados\\avaliacao_qykoc4xa",
+  "episodio_ilustrativo": 1,
+  "janela_media_movel": 50,
+  "matplotlib": "3.11.2",
+  "sha256_fontes": {
+    "historico_treinamento.csv": "a05891e241e2f8585bd0049002130cd0a4d3338a56ad4634a242d888a63f10a1",
+    "episodios_avaliacao.csv": "3b78a4da8168dc0e731127be1c529512bb0b9373e5a46cdaaa10b4f21774312a",
+    "trajetorias_avaliacao.csv": "8676d89be1d411904804fd4cb0ba6fdbfb95e2f3bb217631515fb39b178d1038",
+    "resumo_avaliacao.json": "fae940df32d48a4685df67e568effb225c091e9f68dd56ae71ee38c1fc601b5a"
+  }
+}

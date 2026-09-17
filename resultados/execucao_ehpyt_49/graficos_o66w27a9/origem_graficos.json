@@ -1,0 +1,13 @@
+{
+  "treino": "C:\\Users\\renat\\Desktop\\projetoEstufa\\resultados\\execucao_ehpyt_49\\treino_n68sdi25",
+  "avaliacao": "C:\\Users\\renat\\Desktop\\projetoEstufa\\resultados\\execucao_ehpyt_49\\avaliacao_tndniato",
+  "episodio_ilustrativo": 1,
+  "janela_media_movel": 50,
+  "matplotlib": "3.11.2",
+  "sha256_fontes": {
+    "historico_treinamento.csv": "a05891e241e2f8585bd0049002130cd0a4d3338a56ad4634a242d888a63f10a1",
+    "episodios_avaliacao.csv": "3b78a4da8168dc0e731127be1c529512bb0b9373e5a46cdaaa10b4f21774312a",
+    "trajetorias_avaliacao.csv": "8676d89be1d411904804fd4cb0ba6fdbfb95e2f3bb217631515fb39b178d1038",
+    "resumo_avaliacao.json": "4053de300006df361549986e331c936534367a050ea84a0eb312136e5171369e"
+  }
+}
